@@ -1,0 +1,11 @@
+{
+  "name": "nodebackend",
+  "version": "1.0.0",
+  "description": "Simple node-based backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandr Chernov",
+  "license": "MIT"
+}
