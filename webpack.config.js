@@ -4,7 +4,7 @@ const webpack = require('webpack');
 module.exports = {
     entry: ['./src/index.jsx'],
     output: {
-        path: __dirname+"/app",
+        path: __dirname+"/public",
         filename: 'bundle.js'
     },
     resolve: {
@@ -24,7 +24,7 @@ module.exports = {
         ]
     },
     devServer: {
-        contentBase: __dirname+"/app",
+        contentBase: __dirname+"/public",
         historyApiFallback: true,
         proxy: {
             '/api/**': {

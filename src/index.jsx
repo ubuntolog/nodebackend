@@ -20,7 +20,7 @@ import {RegistrationContainer} from './containers/RegistrationContainer';
 import Graph from './components/Graph';
 import ErrorMessage from './components/ErrorMessage';
 
-require('../app/css/app.css');
+require('../public/css/app.css');
 
 
 const devTools = (window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())

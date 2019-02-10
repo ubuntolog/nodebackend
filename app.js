@@ -3,7 +3,7 @@ let app = express();
 
 /* serves main page */
 app.get("/", function(req, res) {
-    res.sendfile('./app/index.html')
+    res.sendFile(__dirname + '/public/index.html')
 });
 
 // app.post("/user/add", function(req, res) { 
@@ -23,6 +23,7 @@ apiRouter.get('/info', function(req, res) {
 });
 
 app.use(contextPath, apiRouter);
+app.use(express.static("public"))
 app.listen(port, function() {
     console.log("Listening on " + port);
 });
