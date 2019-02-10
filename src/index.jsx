@@ -43,14 +43,6 @@ class Frame extends React.Component {
         super(props);
     }
 
-    inIframe () {
-        try {
-            return window.self !== window.top;
-        } catch (e) {
-            return true;
-        }
-    }
-
     render() {
         return (
             <div>

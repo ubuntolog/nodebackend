@@ -1,4 +1,4 @@
-JSBUNDLE = app/bundle.js
+JSBUNDLE = public/bundle.js
 
 webui: $(JSBUNDLE)
 
@@ -10,3 +10,9 @@ run_webui_dev_server:
 
 dependencies:
 	npm install
+
+run:
+	node app.js
+
+test:
+	npm test
