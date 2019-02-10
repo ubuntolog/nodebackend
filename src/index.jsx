@@ -1,8 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import {render} from 'react-dom';
 import {Provider, connect} from 'react-redux';
-import {Router, IndexRoute, Route, browserHistory, hashHistory, Link } from 'react-router';
+import {Router, IndexRoute, Route, browserHistory} from 'react-router';
 import {syncHistoryWithStore, routerMiddleware} from 'react-router-redux';
 import {compose, applyMiddleware, createStore} from 'redux';
 import thunkMiddleware from 'redux-thunk';

@@ -17,6 +17,16 @@ http://localhost:5000
 ```
 
 ## Development
+Development mode for the backend requires `nodemon`:
+```
+npm install -g nodemon
+```
+
+Run it from the root of the project:
+```
+nodemon
+```
+
 Development server for React frontend
 ```
 make run_webui_dev_server
